@@ -85,16 +85,20 @@ estado = "mayor de edad" if edad >= 18 else "menor de edad"
 
 # OBJETIVO DE SALIDA
 Genera un [ESPECIFICAR: ej. "guía de estudio interactiva", "cheat sheet imprimible", "módulo con ejercicios prácticos", "lección paso a paso para principiantes"].
+"cheat sheet compacto y visual, ideal para imprimir o pegar en un bloc de notas"
+"módulo de 10 ejercicios progresivos (básico → intermedio) con enunciados, pistas y soluciones comentadas"
 
 # REQUISITOS TÉCNICOS Y DE FORMATO
 1. Mantén el rigor sintáctico de Python (indentación de 4 espacios, `:` obligatorios, PEP 8).
 2. Usa Markdown limpio. Separa teoría, pseudocódigo, código y notas clave con claridad.
 3. Incluye al menos [NÚMERO] ejercicios prácticos con solución comentada.
 4. Añade una sección de "Errores comunes y cómo evitarlos" basada en los puntos clave proporcionados.
-5. Si el formato lo permite, agrega 2-3 atajos o configuraciones útiles de VS Code para trabajar con condicionales.
-6. Tono: Pedagógico, directo y profesional. Idioma: Español.
-7. No inventes sintaxis ni modifiques la lógica de los ejemplos base. Si agregas contenido nuevo, márcalo claramente.
+6. Si el formato lo permite, agrega 2-3 atajos o configuraciones útiles de VS Code para trabajar con condicionales.
+7. Tono: Pedagógico, directo y profesional. Idioma: Español.
+8. No inventes sintaxis ni modifiques la lógica de los ejemplos base. Si agregas contenido nuevo, márcalo claramente.
 
+# Guía interactiva / Notebook
+1. "Formato compatible con Jupyter Notebook, celdas Markdown + celdas de código ejecutables, con comentarios# TODO:para práctica".
 # ESTRUCTURA ESPERADA DE LA RESPUESTA
 - 📘 Título y objetivo
 - 🧠 Fundamentos rápidos (conceptos previos)
@@ -104,3 +108,5 @@ Genera un [ESPECIFICAR: ej. "guía de estudio interactiva", "cheat sheet imprimi
 - 📝 Ejercicios prácticos (enunciado + solución)
 - 📎 Tabla de referencia rápida
 - 🖥️ Tips para VS Code (opcional pero valorado)
+
+Si la IA alucina sintaxis, añade al final: ⛔ NO usesswitch/case,match/case(Python 3.10+) ni bibliotecas externas. Soloif/elif/elsepuro.
